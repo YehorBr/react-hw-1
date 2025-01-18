@@ -1,16 +1,10 @@
+import { Greeting } from "./Greeting";
+import { Message } from "./Message";
+
 export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+  return <>
+   {/* Д/З №2 */}
+   <Greeting name="Yehor" />
+   <Message message = "How are you?"  />
+  </>
 };
